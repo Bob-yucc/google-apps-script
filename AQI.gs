@@ -1,6 +1,6 @@
 function doPost(e) {
 
-  var CHANNEL_ACCESS_TOKEN = 'qLSEsWXwwpJimnvgUD1I+b4A/Uekw1vK6PAde227DsgyE11iLFyTuOvUBXTX4wfleN+DIYc0qYNEr1nz1NDJ+pDoRj+RYmgWr3kFOZqgFff8BKGTAqCObiCwnmbA+oeNuTiJky/j4GsdlLoz70L55gdB04t89/1O/w1cDnyilFU=';
+  var CHANNEL_ACCESS_TOKEN = '';
   var msg = JSON.parse(e.postData.contents);
   console.log(msg);
 
